@@ -7,7 +7,8 @@ function threeSum(arr, target) {
 		for(j=i+1;j<arr.length;j++){
 			for(k=j+1;k<arr.length;k++){
 				let sum = arr[i]+arr[j]+arr[k]
-				mindiff.push.Math.abs((sum - target))
+				let diff = sum - target
+				mindiff.push.(Math.abs(diff))
 			}
 		}
 	}
