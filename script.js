@@ -21,5 +21,4 @@ function threeSum(arr, target) {
 	}
 	return min
 }
-
 module.exports = threeSum;
